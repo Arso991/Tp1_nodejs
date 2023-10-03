@@ -17,6 +17,7 @@ const Route = {
     }
 }
 
+Route.post('/traduction', home_controller.traduction);
 Route.get('/', home_controller.index);
 
 const router = (req, res) => {
